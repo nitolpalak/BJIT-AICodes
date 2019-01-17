@@ -84,7 +84,6 @@ plt.show()
 
 plt.scatter(x_opt_test[:,1], Y_opt_test, color = 'red')
 plt.plot(x_opt_test[:,1], Y_opt_pred, color = 'blue')
-plt.plot(x_opt_train[:,1], regressor1.predict(x_opt_train), color = 'green')
 plt.title('R&D vs Profit (Testing set[R&D])')
 plt.xlabel('R&D')
 plt.ylabel('Profit')
